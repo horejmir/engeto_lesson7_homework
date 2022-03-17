@@ -6,7 +6,7 @@ public class Main {
         double b = 2.2;
         double c = -4;
 
-        System.out.println("Součet: "+ a + " + " + b + " + " + c + " = " + sum(1.3, 2.2, -4));
+        System.out.println("Součet: "+ a + " + " + b + " + " + c + " = " + sum(a, b, c));
     }
 
     public static double sum(double... doubles){
