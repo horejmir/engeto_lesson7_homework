@@ -6,7 +6,7 @@ public class Main {
     }
 
     public static double sum(double... doubles){
-        double sum = 0;
+        double sum = 1;
 
         for(double a : doubles) sum += a;
 
